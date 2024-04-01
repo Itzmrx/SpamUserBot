@@ -1,11 +1,11 @@
 import os
 
 class API:
-    API_ID = int(os.getenv("API_ID", ""))
-    API_HASH = os.getenv("API_HASH", "")
+    API_ID = int(os.getenv("API_ID", "24689434"))
+    API_HASH = os.getenv("API_HASH", "2b2a89e9e48a08bedfd1fd3c5ff3c050")
 
 class TOKENS:
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "7100012154:AAEhCQEVENcUmpZGoGvhNBQJgznZ7ZOy2lE")
     STRING_SESSION = os.getenv("STRING_SESSION", "")
     STRING_SESSION_2 = os.getenv("STRING_SESSION_2", "")
     STRING_SESSION_3 = os.getenv("STRING_SESSION_3", "")
@@ -18,7 +18,7 @@ class TOKENS:
     STRING_SESSION_10 = os.getenv("STRING_SESSION_10", "")
 
 class DATABASE:
-    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "")
+    MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://itzking:<password>@cluster0.4k07byk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 class DEV:
     OWNER_ID = int(os.getenv("OWNER_ID", ""))
