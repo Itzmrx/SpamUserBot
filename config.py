@@ -6,7 +6,7 @@ class API:
 
 class TOKENS:
     BOT_TOKEN = os.getenv("BOT_TOKEN", "7100012154:AAEhCQEVENcUmpZGoGvhNBQJgznZ7ZOy2lE")
-    STRING_SESSION = os.getenv("STRING_SESSION", "")
+    STRING_SESSION = os.getenv("STRING_SESSION", "AQAvniJQhjXqwQA8fpMbXMRhGyFblhVjtjIxSTHPBgy2uJ48J2eNJKJn7e44u6dHaznFkmwo1_QsUJ3IfJN-V2bY-6FZ0mbJKITk3u23E316pfDEZKOCSkJdI2ZJcShrFNqkFyX7cmqPxVTO0DD5m1AhKAgjTlvLudHjqFyleU1J7rf1ehrAMS9XlZV0aSwvURNje16koLZnYfIJkoARB35tlazmuEViJ8BCDP7SkkUH-2cOB4ZZmHG3uAejsgUO_GW66oq9Te-XExp5P4i-rC5VVeyZ76cA8rWr_kFwCVNrEx1oB7IxDt8ZyFrFcoqkImXCHrg_mix7CTYeyD3LqjUHAAAAAYxrUdgA ")
     STRING_SESSION_2 = os.getenv("STRING_SESSION_2", "")
     STRING_SESSION_3 = os.getenv("STRING_SESSION_3", "")
     STRING_SESSION_4 = os.getenv("STRING_SESSION_4", "")
@@ -31,5 +31,5 @@ class STUFF:
     ALIVE_PIC = os.getenv("ALIVE_PIC", "")
     HELP_PIC = os. getenv("HELP_PIC", "")
     START_PIC = os. getenv("START_PIC", "")
-    COMMAND_HANDLER = os. getenv("COMMAND_HANDLER", "!")
+    COMMAND_HANDLER = os. getenv("COMMAND_HANDLER", ".")
     ALLOW_PORN = os.getenv("ALLOW_PORN", True) # CHANGE 'True' TO 'False' IF YOU WANNA DISABLE PORN
