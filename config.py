@@ -21,7 +21,7 @@ class DATABASE:
     MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://itzking:<password>@cluster0.4k07byk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 class DEV:
-    OWNER_ID = int(os.getenv("OWNER_ID", ""))
+    OWNER_ID = int(os.getenv("OWNER_ID", "5874405107"))
     
     # DONT EDIT THIS 
     SUDO_USERS = [] 
